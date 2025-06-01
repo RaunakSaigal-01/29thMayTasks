@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            padding: 0;
+            margin: 0;
+        }
+        .nav{
+            display: block;
+            margin-top: 10px;
+            width: 50px;
+            height: 45px;
+            border-top-right-radius: 25%;
+            border-bottom-right-radius: 25%;
+        }
+        .nav:hover{
+            width: 65px;
+        }
+        .cont{
+             top: 0;
+             left: 0;
+             width:80px;
+            position: fixed;
+        }
+        .main{
+            top: 0;
+            margin-left: 80px;
+            padding: 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="cont">
+        <div class="nav" style="background-color: green;"></div>
+        <div class="nav" style="background-color: blue;"></div>
+        <div class="nav" style="background-color: red;"></div>
+        <div class="nav" style="background-color: grey;"></div>
+    </div>
+    <div class="main">
+        <h2>Hoverable Nav Buttons</h2>
+        <p>Hover over the buttons on the left side to open them.</p>
+    </div>
+
+</body>
+</html>

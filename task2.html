@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Login Window</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background: url('office3.jpeg') no-repeat center center fixed;
+      background-size: cover;
+      font-family: Arial, sans-serif;
+    }
+
+    .login-box {
+      width: 350px;
+      background: rgba(0, 0, 0, 0.7);
+      color: white;
+      margin: 100px auto;
+      padding: 40px 30px;
+      border-radius: 10px;
+      text-align: center;
+    }
+
+    .profile-pic {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      background-color: #f44336;
+      border: 4px solid white;
+      margin: 0 auto 20px;
+      object-fit: cover;
+      position: relative;
+      top: -70px;
+      left: 22%;
+      transform: translateX(-50%);
+    }
+
+    h2 {
+      margin-bottom: 30px;
+    }
+
+    input[type="email"], input[type="password"] {
+      width: 100%;
+      padding: 12px;
+      margin: 10px 0;
+      border: none;
+      border-bottom: 2px solid white;
+      background: transparent;
+      color: white;
+      font-size: 16px;
+    }
+
+    input[type="checkbox"] {
+      margin-right: 5px;
+    }
+
+    label {
+      font-size: 14px;
+    }
+
+    a {
+      color: #00bcd4;
+      text-decoration: none;
+    }
+
+    .login-btn {
+      width: 100%;
+      padding: 12px;
+      margin-top: 20px;
+      background-color: #00c853;
+      border: none;
+      color: white;
+      font-size: 16px;
+      cursor: pointer;
+      border-radius: 5px;
+    }
+
+    .login-btn:hover {
+      background-color: #00b248;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="login-box">
+    <img src="image.png" alt="Profile Picture" class="profile-pic">
+    <h2>LOGIN WINDOW</h2>
+
+    <input type="email" placeholder="Your Email Address">
+    <input type="password" placeholder="Your Password">
+    
+    <div style="text-align: left; margin-top: 10px;">
+      <label>
+        <input type="checkbox"> Agree With <a href="#">Terms & Condition</a>
+      </label>
+    </div>
+
+    <button class="login-btn">Login</button>
+  </div>
+
+</body>
+</html>
